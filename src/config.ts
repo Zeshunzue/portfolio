@@ -20,6 +20,12 @@ export const siteConfig = {
       skills: ["KiCAD", "AutoCAD"],
     },
     {
+      name: "Merakit Mikrokontroller AVR menggunakan IC ATMEGA8535",
+      description:
+        "Menggunakan KiCAD sebagai software untuk merancang sirkuit mikrokontroller AVR",
+      skills: ["KiCAD", "AutoCAD"],
+    },
+    {
       name: "Mendesign Robot Arm Sederhana",
       description:
         "Mengoperasikan Arduino IDE sebagai platform untuk mengembangkan sistem kendali robot arm sederhana, dengan mikrokontroller Arduino Uno danESP32",
