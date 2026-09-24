@@ -156,6 +156,49 @@ import { siteConfig } from "../config";
         >
           {siteConfig.title}
         </p>
+        <!-- TOMBOL AKSI CV (DOWNLOAD & DRIVE) -->
+        <div class="mt-6 sm:mt-8 flex flex-wrap items-center gap-4 animate-fade-in animation-delay-400">
+          
+          <!-- Tombol 1: Download PDF -->
+          <a
+            href="/portfolio/CV M. DERI KAUTSAR.pdf"
+            download="CV M. DERI KAUTSAR.pdf"
+            class="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl font-semibold text-white shadow-md transition hover:opacity-90 active:scale-95"
+            style={`background-color: ${siteConfig.accentColor || '#7c3aed'}`}
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="w-5 h-5"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <path stroke-linecap="round" stroke-linejoin="round" d="M4 16v2a2 2 0 002 2h12a2 2 0 002-2v-2M7 10l5 5m0 0l5-5m-5 5V3" />
+            </svg>
+            Download CV
+          </a>
+
+          <!-- Tombol 2: Buka di Google Drive -->
+          <a
+            href="https://drive.google.com/drive/u/1/folders/1fVkcwJyWr3rxsyx6tzjqymMlVW2LV59c"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl font-semibold text-gray-800 border-2 border-gray-800 hover:bg-gray-100 transition active:scale-95 shadow-sm"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="w-5 h-5"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <path stroke-linecap="round" stroke-linejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+            </svg>
+            Lihat di Drive
+          </a>
+        </div>
       </div>
 
       <!-- Kolom Kanan: Foto Profil -->
